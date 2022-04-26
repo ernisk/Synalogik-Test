@@ -8,18 +8,19 @@
 > - 
 
 ### Method 2: Build POM
-> - Clone
+> - Download POM
 > - 
 
-### Method 3: Install FileInfo.jar
-> - Clone
+### Method 3: Install fileinfo.jar
+> - Download fileinfo.jar from this repository
+> - Import jar file as library to your java project
 > - 
 
 ## Code Description
 
 ### main/FileInfo.java
-- FileInfo(Path in) Constructor Taking in Path parameter
--
+> FileInfo(Path in) Constructor Taking in Path parameter
+> 
 
 ### test/FileInfoTest.java
 
