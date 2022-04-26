@@ -1,5 +1,5 @@
-# Synalogik Test by Ernestas Kaziulis
-
+# Synalogik Java Code Test
+### by Ernestas Kaziulis
 
 ## Installation
 
@@ -18,7 +18,7 @@
 ## Code Description
 
 ### main/FileInfo.java
--FileInfo(Path in) Constructor Taking in Path parameter
+- FileInfo(Path in) Constructor Taking in Path parameter
 -
 
 ### test/FileInfoTest.java
