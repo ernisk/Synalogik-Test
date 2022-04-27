@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Users\ernes\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ernes\AppData\Local\Temp\surefire7867703916940589971\surefirebooter10732573697675575055.jar C:\Users\ernes\AppData\Local\Temp\surefire7867703916940589971 2022-04-27T23-02-57_770-jvmRun1 surefire10341948093334326823tmp surefire_0964884913515439122tmp"/>
+    <property name="sun.java.command" value="C:\Users\ernes\AppData\Local\Temp\surefire7237267951493836166\surefirebooter17100711042241720736.jar C:\Users\ernes\AppData\Local\Temp\surefire7237267951493836166 2022-04-27T23-39-24_433-jvmRun1 surefire2136450451833135318tmp surefire_07553434586719449402tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ernes\eclipse-workspace\SynalogikFileInfo\target\test-classes;C:\Users\ernes\eclipse-workspace\SynalogikFileInfo\target\classes;C:\Users\ernes\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\ernes\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ernes\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\ernes\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ernes\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;C:\Users\ernes\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ernes\AppData\Local\Temp\surefire7867703916940589971\surefirebooter10732573697675575055.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ernes\AppData\Local\Temp\surefire7237267951493836166\surefirebooter17100711042241720736.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12"/>
@@ -58,8 +58,8 @@
     <property name="java.class.version" value="61.0"/>
   </properties>
   <testcase name="testInvalidFile" classname="com.ernestasapp.SynalogikFileInfo.FileInfoTest" time="0.029"/>
-  <testcase name="testEmptyFile" classname="com.ernestasapp.SynalogikFileInfo.FileInfoTest" time="0.004"/>
+  <testcase name="testEmptyFile" classname="com.ernestasapp.SynalogikFileInfo.FileInfoTest" time="0.007"/>
   <testcase name="testOutput" classname="com.ernestasapp.SynalogikFileInfo.FileInfoTest" time="0.007"/>
-  <testcase name="testValues" classname="com.ernestasapp.SynalogikFileInfo.FileInfoTest" time="0.001"/>
-  <testcase name="testConstructor" classname="com.ernestasapp.SynalogikFileInfo.FileInfoTest" time="0.001"/>
+  <testcase name="testValues" classname="com.ernestasapp.SynalogikFileInfo.FileInfoTest" time="0.002"/>
+  <testcase name="testConstructor" classname="com.ernestasapp.SynalogikFileInfo.FileInfoTest" time="0"/>
 </testsuite>
