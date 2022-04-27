@@ -8,7 +8,7 @@
 
 - Made on Windows Eclipse 2022-03 with jdk-17 (but downgraded to jdk-11 for more accessibility), but should work with any IDE
 
-- After every method you can run Maven Build with "clean verify" on Eclipse or "mvn clean verify" in terminal to build the code and test it.
+- After every installation you can run Maven Build with "clean verify" on Eclipse or "mvn clean verify" in terminal to build the code and test it.
 
 - If you have imported the code as a java project and not a jar file you can add the project as a project dependency in other java projects build path to then use FileInfo class
 
