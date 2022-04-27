@@ -6,7 +6,7 @@
 ## Installation
 - Requires Java SE Development Kit 17 (jdk-17)
 
-- **Made on Windows Eclipse 2022-03, but should work with any IDE **
+- **Made on Windows Eclipse 2022-03, but should work with any IDE**
 
 - After every method you can run Maven Build with "clean verify" on eclipse or "mvn package" [check] to build the code and test it.
 
