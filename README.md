@@ -8,7 +8,7 @@
 
 - Made on Windows Eclipse 2022-03 with jdk-17 (but downgraded to jdk-11 for more accessibility), but should work with any IDE
 
-- After every installation you can run Maven Build with "clean verify" on Eclipse or "mvn clean verify" in terminal to build the code and test it.
+- After installation you can run Maven Build with "clean verify" on Eclipse or "mvn clean verify" in terminal to build the code and test it.
 
 - If you have imported the code as a java project and not a jar file you can add the project as a project dependency in other java projects build path to then use FileInfo class
 
@@ -21,23 +21,27 @@
 
 ### Method 2: Download package
 > 1. Click Code button at the top of the repository and press Download Zip
-> 2. Import project as an Archive File (.zip) to your IDE
+> 2. Import project as an Archive File (.zip) to your IDE or extract zip in workspace folder
 > 3. DONE: Project should now be in your workspace
 
 ### Method 3: Install fileinfo.jar
 > 1. Download fileinfo.jar from this repository
 > 2. Import jar file as library to your java project
-> 3. DONE: You can now refer in your code as import com.ernestasapp.SynalogikFileInfo.FileInfo;
-> 4. NOTE: You won't be able to run maven build as the jar does not include a pom file
+> 3. DONE: You can now refer in your code as import com.ernestasapp.SynalogikFileInfo.FileInfo; to use FileInfo()
+> 4. NOTE: You won't be able to run maven build on the jar
 
 ## Code Description
 
 ### main/FileInfo.java
-> FileInfo(Path in) Constructor Taking in Path parameter (Make sure the path is from your src folder to your text file) for example: 
+> FileInfo(Path in) Constructor Taking in Path parameter (Make sure the path is from your src folder to your text file) for example:
+>  
 > new FileInfo(Paths.get("src/test/resources/com/ernestasapp/SynalogikFileInfo/testfile.txt"));
+> 
 > FileInfo then reads the path using the Read() function and converts the file text into a string.
+> 
 > Calculations for the word count and average is done with the assumption of a word being a series of characters,including some punctuation, separated by 
 > space,newline,comma or full stop.
+> 
 > Output of the file infomation is then system outputed to the console.
 
 ### test/FileInfoTest.java
