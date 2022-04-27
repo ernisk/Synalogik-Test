@@ -4,18 +4,18 @@
 
 
 ## Installation
-- ***Requires Java SE Development Kit 17 (jdk-17)***
+- ***Requires Java SE Development Kit 11 (jdk-11)***
 
-- Made on Windows Eclipse 2022-03, but should work with any IDE
+- Made on Windows Eclipse 2022-03 with jdk-17 (but downgraded to jdk-11 for more accessibility), but should work with any IDE
 
-- After every method you can run Maven Build with "clean verify" on Eclipse or "mvn package" [check] to build the code and test it.
+- After every method you can run Maven Build with "clean verify" on Eclipse or "mvn clean verify" in terminal to build the code and test it.
 
 - If you have imported the code as a java project and not a jar file you can add the project as a project dependency in other java projects build path to then use FileInfo class
 
 ### Method 1: Clone Repository
 > 1. Open your terminal for git
 > 2. Go to your desired cloning destination
-> 3. type in your terminal "git clone https://github.com/ernisk/Synalogik-Test.git"
+> 3. Type in your terminal "git clone https://github.com/ernisk/Synalogik-Test.git"
 > 4. DONE: This repository should now be in your folder
 > 5. NOTE: If you are on Eclipse and cloned the repo; you can go to "File>Open Projects from File System" and import it to your workspace as a maven folder
 
