@@ -42,7 +42,7 @@ public class FileInfoTest
 			public void testConstructor()
 			{
 				try {
-					new FileInfo(Paths.get("src/test/resources/com/app/SynalogikFileInfo/testfile.txt"));
+					new FileInfo(Paths.get("src/test/resources/com/ernestasapp/SynalogikFileInfo/testfile.txt"));
 				} catch(Exception e){ /*Fail if object can't be made*/
 					fail("Object not made");
 				}
@@ -60,7 +60,7 @@ public class FileInfoTest
 			@Test
 			@DisplayName("3.Exit on empty file")
 			public void testEmptyFile() {
-				new FileInfo(Paths.get("src/test/resources/com/app/SynalogikFileInfo/empty.txt"));
+				new FileInfo(Paths.get("src/test/resources/com/ernestasapp/SynalogikFileInfo/empty.txt"));
 			    assertEquals("File is Empty.", outCurrent.toString().trim());
 			}
 			
@@ -68,7 +68,7 @@ public class FileInfoTest
 			@Test
 			@DisplayName("4.Correct values for Total,Average, Word Count, Frequency")
 			public void testValues() {
-				FileInfo FileObject= new FileInfo(Paths.get("src/test/resources/com/app/SynalogikFileInfo/testfile.txt"));
+				FileInfo FileObject= new FileInfo(Paths.get("src/test/resources/com/ernestasapp/SynalogikFileInfo/testfile.txt"));
 				assertEquals(9, FileObject.getTotalWords());
 				assertEquals(4.556, FileObject.getAverageLength());
 				assertEquals("[0, 1, 1, 1, 2, 2, 1, 1]", FileObject.getWordCount().toString()); //Convert from ArrayList<Integer> to string for easier comparison
@@ -80,7 +80,7 @@ public class FileInfoTest
 			@Test
 			@DisplayName("5.Correct console output")
 			public void testOutput() {
-				new FileInfo(Paths.get("src/test/resources/com/app/SynalogikFileInfo/testfile.txt"));
+				new FileInfo(Paths.get("src/test/resources/com/ernestasapp/SynalogikFileInfo/testfile.txt"));
 				String[] outLines=outCurrent.toString().split("\\n"); //Split whole console output string into lines equal to the expected lines in the test
 			    assertEquals("Word count = 9", outLines[0].trim());
 			    assertEquals("Average word length = 4.556", outLines[1].trim());
